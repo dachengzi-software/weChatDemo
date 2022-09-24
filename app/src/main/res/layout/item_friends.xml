@@ -1,123 +1,130 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
 
     <LinearLayout
-        android:orientation="horizontal"
-        android:layout_margin="10dp"
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <ImageView
-            android:id="@+id/iv_photo"
-            android:src="@mipmap/icon_photo"
-            android:scaleType="centerCrop"
-            android:layout_width="40dp"
-            android:layout_height="40dp" />
-
         <LinearLayout
-            android:orientation="vertical"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp">
+            android:layout_height="wrap_content">
 
-            <TextView
-                android:id="@+id/tv_name"
-                android:text=""
-                android:textSize="16sp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-
-            <TextView
-                android:id="@+id/tv_content"
-                android:textSize="15sp"
-                android:layout_marginTop="6dp"
-                android:text=""
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-
-            <ViewStub
-                android:id="@+id/viewStub"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:layout_marginBottom="8dp"/>
+            <ImageView
+                android:id="@+id/iv_photo"
+                android:src="@mipmap/icon_photo"
+                android:scaleType="centerCrop"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
 
             <LinearLayout
-                android:gravity="center_vertical"
+                android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp">
 
                 <TextView
-                    android:id="@+id/tv_msg_time"
-                    android:layout_width="0dp"
-                    android:layout_weight="1"
-                    android:layout_height="wrap_content" />
-
-                <ImageView
-                    android:id="@+id/btn_comment"
-                    android:src="@mipmap/icon_comment"
+                    android:id="@+id/tv_name"
+                    android:text=""
+                    android:textSize="16sp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
-            </LinearLayout>
+                <TextView
+                    android:id="@+id/tv_content"
+                    android:textSize="15sp"
+                    android:layout_marginTop="6dp"
+                    android:text=""
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
 
-            <LinearLayout
-                android:id="@+id/layout_sns"
-                android:background="@drawable/bg_comment"
-                android:orientation="vertical"
-                android:paddingTop="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                <ViewStub
+                    android:id="@+id/view_stub_proxy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp" />
 
                 <LinearLayout
-                    android:id="@+id/layout_zans"
-                    android:orientation="horizontal"
-                    android:paddingLeft="8dp"
-                    android:paddingRight="8dp"
+                    android:gravity="center_vertical"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
-                    <ImageView
-                        android:src="@mipmap/icon_zan_small"
-                        android:layout_gravity="top|left"
-                        android:layout_width="wrap_content"
+                    <TextView
+                        android:id="@+id/tv_msg_time"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
                         android:layout_height="wrap_content" />
 
-                    <TextView
-                        android:id="@+id/tv_zans"
-                        android:textSize="13sp"
-                        android:text=""
-                        android:layout_marginLeft="4dp"
-                        android:gravity="center_vertical"
-                        android:layout_width="match_parent"
+                    <ImageView
+                        android:id="@+id/btn_comment"
+                        android:src="@mipmap/icon_comment"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
                 </LinearLayout>
 
-                <View
-                    android:id="@+id/divider_1"
-                    android:visibility="gone"
-                    android:layout_marginTop="2dp"
-                    android:layout_marginBottom="2dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="0.5dp"
-                    android:background="@color/color_line"/>
-
-                <com.emmanuel.wechatdemo.view.CommentLinearLayout
-                    android:id="@+id/layout_comment"
+                <LinearLayout
+                    android:id="@+id/layout_sns"
+                    android:background="@drawable/bg_comment"
                     android:orientation="vertical"
-                    android:paddingLeft="8dp"
-                    android:paddingRight="8dp"
+                    android:paddingTop="10dp"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"/>
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/layout_zans"
+                        android:orientation="horizontal"
+                        android:paddingLeft="8dp"
+                        android:paddingRight="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:src="@mipmap/icon_zan_small"
+                            android:layout_gravity="top|left"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/tv_zans"
+                            android:textSize="13sp"
+                            android:text=""
+                            android:layout_marginLeft="4dp"
+                            android:gravity="center_vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:id="@+id/divider_1"
+                        android:visibility="gone"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@color/color_line" />
+
+                    <com.emmanuel.wechatdemo.view.CommentLinearLayout
+                        android:id="@+id/layout_comment"
+                        android:orientation="vertical"
+                        android:paddingLeft="8dp"
+                        android:paddingRight="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
 
             </LinearLayout>
 
         </LinearLayout>
 
     </LinearLayout>
-
-</LinearLayout>
+</layout>

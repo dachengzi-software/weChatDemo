@@ -26,25 +26,25 @@ public class DataFactory {
             "笨鸟先飞。。。"
     };
     public static final String PHOTO_URL[] = {
-            "http://img4.imgtn.bdimg.com/it/u=306417407,3315079289&fm=21&gp=0.jpg",
-            "http://img3.imgtn.bdimg.com/it/u=1895407444,732122393&fm=21&gp=0.jpg",
-            "http://img2.imgtn.bdimg.com/it/u=1267133660,2011180104&fm=21&gp=0.jpg",
-            "https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1471400134&di=f2790eb5fdcdc6dedba437aa62a58940&src=http://img0.pconline.com.cn/pconline/1408/21/5313057_1408107-10_thumb.jpg",
-            "https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1471400134&di=32e656b2b72f8bf7ed0a1bf64eaa73de&src=http://pic.3h3.com/up/2013-7/201377991457564943.jpg",
-            "http://img5.imgtn.bdimg.com/it/u=2196598284,153353657&fm=21&gp=0.jpg"
+            "https://t12.baidu.com/it/u=3868855709,3471994371&fm=58",
+            "https://t12.baidu.com/it/u=3868855709,3471994371&fm=58",
+            "https://t12.baidu.com/it/u=3868855709,3471994371&fm=58",
+            "https://t12.baidu.com/it/u=3868855709,3471994371&fm=58",
+            "https://t12.baidu.com/it/u=3868855709,3471994371&fm=58",
+            "https://t12.baidu.com/it/u=3868855709,3471994371&fm=58"
     };
     public static final String PICTURE_URL[] = {
-            "http://www.pptbz.com/pptpic/UploadFiles_6909/201203/2012031220134655.jpg",
-            "http://pic23.nipic.com/20120917/10076134_112929387108_2.jpg",
-            "http://img3.imgtn.bdimg.com/it/u=3504467926,1438117737&fm=206&gp=0.jpg",
-            "http://img1.imgtn.bdimg.com/it/u=663132532,1265075679&fm=206&gp=0.jpg",
-            "http://img2.imgtn.bdimg.com/it/u=430285025,1168446243&fm=206&gp=0.jpg",
-            "http://img4.imgtn.bdimg.com/it/u=3814971924,4161415886&fm=206&gp=0.jpg",
-            "http://img1.imgtn.bdimg.com/it/u=731307697,3873909574&fm=206&gp=0.jpg",
-            "http://img3.imgtn.bdimg.com/it/u=1681882397,3535453166&fm=206&gp=0.jpg",
-            "http://img2.imgtn.bdimg.com/it/u=2059708553,255963759&fm=206&gp=0.jpg",
-            "http://img2.imgtn.bdimg.com/it/u=1023930876,2577057362&fm=206&gp=0.jpg",
-            "http://img0.imgtn.bdimg.com/it/u=2349257573,7606495&fm=206&gp=0.jpg"
+            "https://t12.baidu.com/it/u=3868855709,3471994371&fm=58",
+            "https://t12.baidu.com/it/u=3868855709,3471994371&fm=58",
+            "https://t12.baidu.com/it/u=3868855709,3471994371&fm=58",
+            "https://t12.baidu.com/it/u=3868855709,3471994371&fm=58",
+            "https://t12.baidu.com/it/u=3868855709,3471994371&fm=58",
+            "https://t12.baidu.com/it/u=3868855709,3471994371&fm=58",
+            "https://t12.baidu.com/it/u=3868855709,3471994371&fm=58",
+            "https://t12.baidu.com/it/u=3868855709,3471994371&fm=58",
+            "https://t12.baidu.com/it/u=3868855709,3471994371&fm=58",
+            "https://t12.baidu.com/it/u=3868855709,3471994371&fm=58",
+            "https://t12.baidu.com/it/u=3868855709,3471994371&fm=58"
 //            "",
 //            "",
 //            "",
